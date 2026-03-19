@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="12dp">
+
+    <!-- User message (right) -->
+    <LinearLayout
+        android:id="@+id/userContainer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:orientation="vertical"
+        android:maxWidth="280dp"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/userText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bubble_user"
+            android:padding="12dp"
+            android:textColor="@color/bubble_user_text"
+            android:textSize="15sp" />
+
+        <ImageView
+            android:id="@+id/userCopyButton"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_gravity="end"
+            android:layout_marginTop="4dp"
+            android:src="@drawable/ic_copy"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            app:tint="@color/bubble_assistant_text"
+            android:alpha="0.6"
+            xmlns:app="http://schemas.android.com/apk/res-auto" />
+    </LinearLayout>
+
+    <!-- Assistant message (left) -->
+    <LinearLayout
+        android:id="@+id/assistantContainer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:orientation="vertical"
+        android:maxWidth="280dp"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/assistantText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bubble_assistant"
+            android:padding="12dp"
+            android:textColor="@color/bubble_assistant_text"
+            android:textSize="15sp" />
+
+        <ImageView
+            android:id="@+id/assistantCopyButton"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_gravity="start"
+            android:layout_marginTop="4dp"
+            android:src="@drawable/ic_copy"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            app:tint="@color/bubble_assistant_text"
+            android:alpha="0.6"
+            xmlns:app="http://schemas.android.com/apk/res-auto" />
+    </LinearLayout>
+
+</FrameLayout>

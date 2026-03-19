@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="background">#0a0a0a</color>
+    <color name="header_bg">#111111</color>
+    <color name="header_border">#1a1a1a</color>
+    <color name="bubble_assistant">#141414</color>
+    <color name="bubble_assistant_border">#222222</color>
+    <color name="bubble_assistant_text">#d4d4d4</color>
+    <color name="bubble_user">#e5e5e5</color>
+    <color name="bubble_user_text">#0a0a0a</color>
+    <color name="button_send">#e5e5e5</color>
+    <color name="avatar_bg">#1a1a1a</color>
+    <color name="avatar_border">#333333</color>
+    <color name="success_green">#00ff00</color>
+</resources>

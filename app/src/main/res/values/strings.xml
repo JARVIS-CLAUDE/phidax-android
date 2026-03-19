@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">PHIDAX</string>
+    <string name="hint_message">Message…</string>
+    <string name="send">Envoyer</string>
+    <string name="copy">Copier</string>
+    <string name="copied">Copié</string>
+    <string name="connecting">Connexion…</string>
+</resources>
