@@ -1,2 +1,3 @@
 *.gradle
 .gradle/
+.github/workflows/build-apk.yml
